@@ -10,24 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_11_08_060147) do
-
-  create_table "deliverables", force: :cascade do |t|
-    t.string "name"
-    t.integer "project_id"
-    t.integer "assigned"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "username"
-    t.integer "email"
-    t.integer "phone_number"
-    t.string "gender"
-    t.integer "age"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
